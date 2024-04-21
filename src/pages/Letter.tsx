@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import apex from "../components/Icons/apex_icon.png";
-import letter from "../components/Icons/Letter.png";
+import letter from "../components/Icons/pic.png";
 import "../styles/Letter.css";
 import { useState } from "react";
 import { Fade, JackInTheBox } from "react-awesome-reveal";
@@ -18,8 +18,10 @@ export default function Letter() {
         <Row>
           <Col>
             <Fade direction="down">
-              <p className="intro">So for now I just wanna give you this</p>
-              <p className="sub_intro">"Open your Apex love pack"</p>
+              <p className="intro">Insert Text here</p>
+              <p className="sub_intro">
+                "Insert Sub Intro"
+              </p>
             </Fade>
           </Col>
         </Row>

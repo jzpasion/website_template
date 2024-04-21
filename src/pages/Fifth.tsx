@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import first_pic from "../components/Icons/pic_1.jpg";
-import second_pic from "../components/Icons/pic_2.jpg";
+import first_pic from "../components/Icons/pic_1.png";
+import second_pic from "../components/Icons/pic_1.png";
 import "../styles/Fifth.css";
 import { Fade, Rotate } from "react-awesome-reveal";
 
@@ -12,10 +12,10 @@ export default function Fifth() {
         <Row>
           <Col>
             <Fade direction="down">
-              <p className="intro">
-                It was the best thing I could've ever hoped for~
+              <p className="intro">Insert Text here</p>
+              <p className="sub_intro">
+                "Insert Sub Intro"
               </p>
-              <p className="sub_intro">"Thank you so muuuuch!"</p>
             </Fade>
           </Col>
         </Row>

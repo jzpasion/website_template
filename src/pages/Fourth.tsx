@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import first_pic from "../components/Icons/1_pic.jpg";
-import second_pic from "../components/Icons/2_pic.jpg";
-import third_pic from "../components/Icons/3_pic.jpg";
-import fourth_pic from "../components/Icons/4_pic.jpg";
+import first_pic from "../components/Icons/pic.png";
+import second_pic from "../components/Icons/pic.png";
+import third_pic from "../components/Icons/pic.png";
+import fourth_pic from "../components/Icons/pic.png";
 import { Fade, Bounce } from "react-awesome-reveal";
 import "../styles/Fourth.css";
 
@@ -14,11 +14,9 @@ export default function Fourth() {
         <Row>
           <Col>
             <Fade direction="down">
-              <p className="intro_4">
-                And having a chance to see and date you in person
-              </p>
+              <p className="intro_4">Insert Text here</p>
               <p className="sub_intro_4">
-                "My best day in japan~ also owls owls owls owls ww"
+                "Insert Sub Intro"
               </p>
             </Fade>
           </Col>

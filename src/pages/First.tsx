@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import { Container, Row, Col } from "react-bootstrap";
-import islaBanner from "../components/Icons/banner.png";
+import iconBanner from "../components/Icons/banner.png";
 import bits from "../components/Icons/bits-01.png";
 import smile from "../components/Icons/smile.png";
 import founder from "../components/Icons/founder.png";
@@ -16,9 +16,9 @@ export default function First() {
         <Row>
           <Col>
             <Fade direction="down">
-              <p className="intro">It all started here</p>
+              <p className="intro">Insert Text here</p>
               <p className="sub_intro">
-                "It was on june 4th when I start following you"
+                "Insert Sub Intro"
               </p>
             </Fade>
           </Col>
@@ -29,24 +29,24 @@ export default function First() {
             <Fade direction="up">
               <div className="twitch_layout">
                 <div className="isla_banner">
-                  <img src={islaBanner} alt="" />
+                  <img src={iconBanner} alt="" />
                 </div>
                 <div className="twitch_chat_header">
                   <p>Chat</p>
                 </div>
 
                 <div className="twitch_chat">
-                  <p>Welcome to Isla's chat room!</p>
+                  <p>Welcome to Insert Name chat room!</p>
                 </div>
                 <div className="twitch_chat_input">
                   <img className="chat_founder" src={founder} alt="" />
                   <Typed
                     className="type_chat"
                     strings={[
-                      "Hey~ Isla",
-                      "How are you today?",
-                      "Genki genki, moto moto wa? w",
-                      "NF NF NF",
+                      "First chat text",
+                      "Second chat text",
+                      "Third chat text",
+                      "Fourth chat text",
                     ]}
                     typeSpeed={130}
                     backSpeed={80}

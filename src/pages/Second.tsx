@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Isla from "../components/Icons/Isla.png";
-import ww from "../components/Icons/3.png";
-import gg from "../components/Icons/gg.png";
-import hato from "../components/Icons/hato.png";
-import nf from "../components/Icons/nf.png";
-import yatta from "../components/Icons/yatta.png";
+import IconImg from "../components/Icons/Icon.png";
+import emote_1 from "../components/Icons/emote_1.png";
+import emote_2 from "../components/Icons/emote_2.png";
+import emote_3 from "../components/Icons/emote_3.png";
+import emote_4 from "../components/Icons/emote_4.png";
+import emote_5 from "../components/Icons/emote_5.png";
 import { Fade, JackInTheBox } from "react-awesome-reveal";
 import "../styles/Second.css";
 
@@ -16,10 +16,9 @@ export default function Second() {
         <Row>
           <Col>
             <Fade direction="down">
-              <p className="intro">Then I became somehow attracted to you</p>
+              <p className="intro">Insert Text here</p>
               <p className="sub_intro">
-                "It was also the time we chat each other on twitter and playing
-                off stream"
+                "Insert Sub Intro"
               </p>
             </Fade>
           </Col>
@@ -28,13 +27,13 @@ export default function Second() {
           <JackInTheBox>
             <div className="card_isla">
               <div className="img_holder">
-                <img src={Isla} alt="" />
+                <img src={IconImg} alt="" />
               </div>
             </div>
           </JackInTheBox>
         </Row>
         <Row>
-          <div className="isla_aira">Isla</div>
+          <div className="isla_aira">User Image</div>
         </Row>
         <Row xs={1} md={2}>
           <Col>
@@ -72,11 +71,11 @@ export default function Second() {
                   My favorite emotes
                 </Card.Title>
                 <Card.Body className="emotes">
-                  <img src={ww} alt="" />
-                  <img src={nf} alt="" />
-                  <img src={hato} alt="" />
-                  <img src={gg} alt="" />
-                  <img src={yatta} alt="" />
+                  <img src={emote_1} alt="" />
+                  <img src={emote_4} alt="" />
+                  <img src={emote_3} alt="" />
+                  <img src={emote_2} alt="" />
+                  <img src={emote_5} alt="" />
                 </Card.Body>
               </Card>
             </Fade>

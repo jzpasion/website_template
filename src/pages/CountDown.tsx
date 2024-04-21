@@ -11,12 +11,12 @@ export default function CountDown() {
   const [seconds, setSeconds] = useState(0);
 
   const year = new Date().getFullYear();
-  const flight = new Date(year, 1, 4).getTime();
+  const xmas = new Date(year, 11, 25).getTime();
 
   setInterval(function () {
     const today = new Date().getTime();
     let diff;
-    diff = flight - today;
+    diff = xmas - today;
 
     // math
     let daysMath = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -37,38 +37,35 @@ export default function CountDown() {
         <Row>
           <Col>
             <Fade direction="down">
-              <p className="intro_5">
-                Kosumoooo sweetiee Today is your flight I can finally see you
-                again~ please take care and have safe flight!{" "}
-              </p>
-              <p className="sub_intro_5">
-                I can't wait to see and hug youuu, Iloveyouuuu~
+              <p className="intro">Days before Christmas</p>
+              <p className="sub_intro">
+                "Insert Sub Intro"
               </p>
             </Fade>
           </Col>
         </Row>
       </Container>
-      {/* <AttentionSeeker effect='tada'>
+      <AttentionSeeker effect='tada'>
 
-                <div className='counter_container'>
-                    <div className='days_wrapper'>
-                        <div className='numbers'>{days}</div>
-                        Days
-                    </div>
-                    <div className='hours_wrapper'>
-                        <div className='numbers'>{hours}</div>
-                        Hours
-                    </div>
-                    <div className='minutes_wrapper'>
-                        <div className='numbers'>{minutes}</div>
-                        Minutes
-                    </div>
-                    <div className='seconds_wrapper'>
-                        <div className='numbers'>{seconds}</div>
-                        Seconds
-                    </div>
-                </div>
-            </AttentionSeeker> */}
+        <div className='counter_container'>
+          <div className='days_wrapper'>
+            <div className='numbers'>{days}</div>
+            Days
+          </div>
+          <div className='hours_wrapper'>
+            <div className='numbers'>{hours}</div>
+            Hours
+          </div>
+          <div className='minutes_wrapper'>
+            <div className='numbers'>{minutes}</div>
+            Minutes
+          </div>
+          <div className='seconds_wrapper'>
+            <div className='numbers'>{seconds}</div>
+            Seconds
+          </div>
+        </div>
+      </AttentionSeeker>
     </div>
   );
 }
